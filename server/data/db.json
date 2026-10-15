@@ -1,0 +1,866 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-01",
+      "email": "admin@woopulse.local",
+      "passwordHash": "$2a$10$1dGrqGfoUolP2mp0IQIsY.13WC4VWl56/bk66IJaoZZC.7WP5PIPC",
+      "name": "CRM Administrator",
+      "role": "ADMIN",
+      "createdAt": "2026-08-16T17:09:00.886Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-01",
+      "wooCustomerId": 101,
+      "email": "sarah.jenkins@example.com",
+      "firstName": "Sarah",
+      "lastName": "Jenkins",
+      "phone": "+1 (555) 234-5678",
+      "billing": {
+        "address_1": "742 Evergreen Terrace",
+        "city": "Portland",
+        "state": "OR",
+        "postcode": "97201",
+        "country": "US"
+      },
+      "emailConsent": true,
+      "unsubscribedAt": null,
+      "source": "woo",
+      "wooDateModified": "2026-10-03T17:09:00.886Z",
+      "createdAt": "2026-04-18T17:09:00.886Z",
+      "updatedAt": "2026-10-03T17:09:00.886Z"
+    },
+    {
+      "id": "cust-02",
+      "wooCustomerId": 102,
+      "email": "david.chen@technova.io",
+      "firstName": "David",
+      "lastName": "Chen",
+      "phone": "+1 (555) 345-6789",
+      "billing": {
+        "address_1": "120 Market St, Suite 400",
+        "city": "San Francisco",
+        "state": "CA",
+        "postcode": "94105",
+        "country": "US"
+      },
+      "emailConsent": true,
+      "unsubscribedAt": null,
+      "source": "woo",
+      "wooDateModified": "2026-06-22T17:09:00.886Z",
+      "createdAt": "2026-03-19T17:09:00.886Z",
+      "updatedAt": "2026-06-22T17:09:00.886Z"
+    },
+    {
+      "id": "cust-03",
+      "wooCustomerId": 103,
+      "email": "elena.rostova@designlab.co",
+      "firstName": "Elena",
+      "lastName": "Rostova",
+      "phone": "+1 (555) 456-7890",
+      "billing": {
+        "address_1": "45 Crosby St, Apt 3B",
+        "city": "New York",
+        "state": "NY",
+        "postcode": "10012",
+        "country": "US"
+      },
+      "emailConsent": true,
+      "unsubscribedAt": null,
+      "source": "woo",
+      "wooDateModified": "2026-10-11T17:09:00.886Z",
+      "createdAt": "2026-10-09T17:09:00.886Z",
+      "updatedAt": "2026-10-11T17:09:00.886Z"
+    },
+    {
+      "id": "cust-04",
+      "wooCustomerId": 104,
+      "email": "marcus.vance@archstudio.net",
+      "firstName": "Marcus",
+      "lastName": "Vance",
+      "phone": "+1 (555) 567-8901",
+      "billing": {
+        "address_1": "880 Lake Shore Dr",
+        "city": "Chicago",
+        "state": "IL",
+        "postcode": "60611",
+        "country": "US"
+      },
+      "emailConsent": true,
+      "unsubscribedAt": null,
+      "source": "woo",
+      "wooDateModified": "2026-08-11T17:09:00.886Z",
+      "createdAt": "2026-05-28T17:09:00.886Z",
+      "updatedAt": "2026-08-11T17:09:00.886Z"
+    },
+    {
+      "id": "cust-05",
+      "wooCustomerId": 105,
+      "email": "sophia.miller@luxegallery.com",
+      "firstName": "Sophia",
+      "lastName": "Miller",
+      "phone": "+1 (555) 678-9012",
+      "billing": {
+        "address_1": "320 Rodeo Drive",
+        "city": "Beverly Hills",
+        "state": "CA",
+        "postcode": "90210",
+        "country": "US"
+      },
+      "emailConsent": true,
+      "unsubscribedAt": null,
+      "source": "woo",
+      "wooDateModified": "2026-08-04T17:09:00.886Z",
+      "createdAt": "2026-02-17T17:09:00.886Z",
+      "updatedAt": "2026-08-04T17:09:00.886Z"
+    },
+    {
+      "id": "cust-06",
+      "wooCustomerId": null,
+      "email": "james.wilson@gmail.com",
+      "firstName": "James",
+      "lastName": "Wilson",
+      "phone": "+1 (555) 789-0123",
+      "billing": {
+        "address_1": "500 Boylston St",
+        "city": "Boston",
+        "state": "MA",
+        "postcode": "02116",
+        "country": "US"
+      },
+      "emailConsent": true,
+      "unsubscribedAt": null,
+      "source": "guest",
+      "wooDateModified": "2026-09-27T17:09:00.886Z",
+      "createdAt": "2026-09-27T17:09:00.886Z",
+      "updatedAt": "2026-09-27T17:09:00.886Z"
+    },
+    {
+      "id": "cust-07",
+      "wooCustomerId": 107,
+      "email": "james.wilson@gmail.com",
+      "firstName": "Jim",
+      "lastName": "Wilson",
+      "phone": "+1 (555) 789-0123",
+      "billing": {
+        "address_1": "500 Boylston St, Fl 4",
+        "city": "Boston",
+        "state": "MA",
+        "postcode": "02116",
+        "country": "US"
+      },
+      "emailConsent": true,
+      "unsubscribedAt": null,
+      "source": "woo",
+      "wooDateModified": "2026-05-18T17:09:00.886Z",
+      "createdAt": "2025-12-19T17:09:00.886Z",
+      "updatedAt": "2026-05-18T17:09:00.886Z"
+    },
+    {
+      "id": "cust-08",
+      "wooCustomerId": 108,
+      "email": "clara.barton@mercyhealth.org",
+      "firstName": "Clara",
+      "lastName": "Barton",
+      "phone": "+1 (555) 890-1234",
+      "billing": {
+        "address_1": "1400 K Street NW",
+        "city": "Washington",
+        "state": "DC",
+        "postcode": "20005",
+        "country": "US"
+      },
+      "emailConsent": false,
+      "unsubscribedAt": "2026-09-05T17:09:00.886Z",
+      "source": "woo",
+      "wooDateModified": "2026-08-26T17:09:00.886Z",
+      "createdAt": "2026-05-08T17:09:00.886Z",
+      "updatedAt": "2026-09-05T17:09:00.886Z"
+    },
+    {
+      "id": "cust-09",
+      "wooCustomerId": 109,
+      "email": "alexander.wright@bespoketailor.co",
+      "firstName": "Alexander",
+      "lastName": "Wright",
+      "phone": "+1 (555) 901-2345",
+      "billing": {
+        "address_1": "250 Mercer Street",
+        "city": "New York",
+        "state": "NY",
+        "postcode": "10012",
+        "country": "US"
+      },
+      "emailConsent": true,
+      "unsubscribedAt": null,
+      "source": "woo",
+      "wooDateModified": "2026-10-07T17:09:00.886Z",
+      "createdAt": "2026-04-08T17:09:00.886Z",
+      "updatedAt": "2026-10-07T17:09:00.886Z"
+    },
+    {
+      "id": "cust-10",
+      "wooCustomerId": 110,
+      "email": "olivia.taylor@trendforecast.com",
+      "firstName": "Olivia",
+      "lastName": "Taylor",
+      "phone": "+1 (555) 012-3456",
+      "billing": {
+        "address_1": "1800 Congress Ave",
+        "city": "Austin",
+        "state": "TX",
+        "postcode": "78701",
+        "country": "US"
+      },
+      "emailConsent": true,
+      "unsubscribedAt": null,
+      "source": "woo",
+      "wooDateModified": "2026-09-25T17:09:00.886Z",
+      "createdAt": "2026-07-27T17:09:00.886Z",
+      "updatedAt": "2026-09-25T17:09:00.886Z"
+    },
+    {
+      "id": "cust-11",
+      "wooCustomerId": 111,
+      "email": "maya.patel@horizonstudio.org",
+      "firstName": "Maya",
+      "lastName": "Patel",
+      "phone": "+1 (555) 123-9876",
+      "billing": {
+        "address_1": "400 Pine Street",
+        "city": "Seattle",
+        "state": "WA",
+        "postcode": "98101",
+        "country": "US"
+      },
+      "emailConsent": true,
+      "unsubscribedAt": null,
+      "source": "woo",
+      "wooDateModified": "2026-09-17T17:09:00.886Z",
+      "createdAt": "2026-03-09T17:09:00.886Z",
+      "updatedAt": "2026-09-17T17:09:00.886Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1001",
+      "wooOrderId": 5001,
+      "number": "5001",
+      "status": "completed",
+      "currency": "USD",
+      "total": 345.5,
+      "dateCreated": "2026-10-03T17:09:00.886Z",
+      "dateModified": "2026-10-03T17:09:00.886Z",
+      "customerId": "cust-01",
+      "billingEmail": "sarah.jenkins@example.com",
+      "billing": {
+        "firstName": "Sarah",
+        "lastName": "Jenkins",
+        "city": "Portland",
+        "state": "OR"
+      },
+      "lineItems": [
+        {
+          "id": 1,
+          "name": "Silk Trench Coat (Navy)",
+          "quantity": 1,
+          "price": 295,
+          "total": 295
+        },
+        {
+          "id": 2,
+          "name": "Leather Belt (Brass Buckle)",
+          "quantity": 1,
+          "price": 50.5,
+          "total": 50.5
+        }
+      ],
+      "rawSyncedAt": "2026-10-14T17:09:00.886Z"
+    },
+    {
+      "id": "ord-1002",
+      "wooOrderId": 5002,
+      "number": "5002",
+      "status": "completed",
+      "currency": "USD",
+      "total": 420,
+      "dateCreated": "2026-08-31T17:09:00.886Z",
+      "dateModified": "2026-08-31T17:09:00.886Z",
+      "customerId": "cust-01",
+      "billingEmail": "sarah.jenkins@example.com",
+      "billing": {
+        "firstName": "Sarah",
+        "lastName": "Jenkins",
+        "city": "Portland",
+        "state": "OR"
+      },
+      "lineItems": [
+        {
+          "id": 3,
+          "name": "Cashmere Knit Sweater",
+          "quantity": 2,
+          "price": 210,
+          "total": 420
+        }
+      ],
+      "rawSyncedAt": "2026-10-14T17:09:00.886Z"
+    },
+    {
+      "id": "ord-1003",
+      "wooOrderId": 5003,
+      "number": "5003",
+      "status": "completed",
+      "currency": "USD",
+      "total": 475,
+      "dateCreated": "2026-07-12T17:09:00.886Z",
+      "dateModified": "2026-07-12T17:09:00.886Z",
+      "customerId": "cust-01",
+      "billingEmail": "sarah.jenkins@example.com",
+      "billing": {
+        "firstName": "Sarah",
+        "lastName": "Jenkins",
+        "city": "Portland",
+        "state": "OR"
+      },
+      "lineItems": [
+        {
+          "id": 4,
+          "name": "Wool Tailored Blazer",
+          "quantity": 1,
+          "price": 475,
+          "total": 475
+        }
+      ],
+      "rawSyncedAt": "2026-10-14T17:09:00.886Z"
+    },
+    {
+      "id": "ord-1004",
+      "wooOrderId": 5004,
+      "number": "5004",
+      "status": "completed",
+      "currency": "USD",
+      "total": 180,
+      "dateCreated": "2026-06-22T17:09:00.886Z",
+      "dateModified": "2026-06-22T17:09:00.886Z",
+      "customerId": "cust-02",
+      "billingEmail": "david.chen@technova.io",
+      "billing": {
+        "firstName": "David",
+        "lastName": "Chen",
+        "city": "San Francisco",
+        "state": "CA"
+      },
+      "lineItems": [
+        {
+          "id": 5,
+          "name": "Minimalist Oxford Shirt",
+          "quantity": 2,
+          "price": 90,
+          "total": 180
+        }
+      ],
+      "rawSyncedAt": "2026-10-14T17:09:00.886Z"
+    },
+    {
+      "id": "ord-1005",
+      "wooOrderId": 5005,
+      "number": "5005",
+      "status": "completed",
+      "currency": "USD",
+      "total": 160,
+      "dateCreated": "2026-05-08T17:09:00.886Z",
+      "dateModified": "2026-05-08T17:09:00.886Z",
+      "customerId": "cust-02",
+      "billingEmail": "david.chen@technova.io",
+      "billing": {
+        "firstName": "David",
+        "lastName": "Chen",
+        "city": "San Francisco",
+        "state": "CA"
+      },
+      "lineItems": [
+        {
+          "id": 6,
+          "name": "Tailored Chino Pants",
+          "quantity": 1,
+          "price": 160,
+          "total": 160
+        }
+      ],
+      "rawSyncedAt": "2026-10-14T17:09:00.886Z"
+    },
+    {
+      "id": "ord-1006",
+      "wooOrderId": 5006,
+      "number": "5006",
+      "status": "processing",
+      "currency": "USD",
+      "total": 145,
+      "dateCreated": "2026-10-11T17:09:00.886Z",
+      "dateModified": "2026-10-11T17:09:00.886Z",
+      "customerId": "cust-03",
+      "billingEmail": "elena.rostova@designlab.co",
+      "billing": {
+        "firstName": "Elena",
+        "lastName": "Rostova",
+        "city": "New York",
+        "state": "NY"
+      },
+      "lineItems": [
+        {
+          "id": 7,
+          "name": "Merino Wool Scarf",
+          "quantity": 1,
+          "price": 145,
+          "total": 145
+        }
+      ],
+      "rawSyncedAt": "2026-10-14T17:09:00.886Z"
+    },
+    {
+      "id": "ord-1007",
+      "wooOrderId": 5007,
+      "number": "5007",
+      "status": "completed",
+      "currency": "USD",
+      "total": 290,
+      "dateCreated": "2026-08-11T17:09:00.886Z",
+      "dateModified": "2026-08-11T17:09:00.886Z",
+      "customerId": "cust-04",
+      "billingEmail": "marcus.vance@archstudio.net",
+      "billing": {
+        "firstName": "Marcus",
+        "lastName": "Vance",
+        "city": "Chicago",
+        "state": "IL"
+      },
+      "lineItems": [
+        {
+          "id": 8,
+          "name": "Italian Leather Weekender",
+          "quantity": 1,
+          "price": 290,
+          "total": 290
+        }
+      ],
+      "rawSyncedAt": "2026-10-14T17:09:00.886Z"
+    },
+    {
+      "id": "ord-1008",
+      "wooOrderId": 5008,
+      "number": "5008",
+      "status": "completed",
+      "currency": "USD",
+      "total": 620,
+      "dateCreated": "2026-08-04T17:09:00.886Z",
+      "dateModified": "2026-08-04T17:09:00.886Z",
+      "customerId": "cust-05",
+      "billingEmail": "sophia.miller@luxegallery.com",
+      "billing": {
+        "firstName": "Sophia",
+        "lastName": "Miller",
+        "city": "Beverly Hills",
+        "state": "CA"
+      },
+      "lineItems": [
+        {
+          "id": 9,
+          "name": "Evening Silk Gown",
+          "quantity": 1,
+          "price": 620,
+          "total": 620
+        }
+      ],
+      "rawSyncedAt": "2026-10-14T17:09:00.886Z"
+    },
+    {
+      "id": "ord-1009",
+      "wooOrderId": 5009,
+      "number": "5009",
+      "status": "completed",
+      "currency": "USD",
+      "total": 89,
+      "dateCreated": "2026-09-27T17:09:00.886Z",
+      "dateModified": "2026-09-27T17:09:00.886Z",
+      "customerId": "cust-06",
+      "billingEmail": "james.wilson@gmail.com",
+      "billing": {
+        "firstName": "James",
+        "lastName": "Wilson",
+        "city": "Boston",
+        "state": "MA"
+      },
+      "lineItems": [
+        {
+          "id": 10,
+          "name": "Graphic Linen Tee",
+          "quantity": 1,
+          "price": 89,
+          "total": 89
+        }
+      ],
+      "rawSyncedAt": "2026-10-14T17:09:00.886Z"
+    },
+    {
+      "id": "ord-1010",
+      "wooOrderId": 5010,
+      "number": "5010",
+      "status": "cancelled",
+      "currency": "USD",
+      "total": 120,
+      "dateCreated": "2026-09-15T17:09:00.886Z",
+      "dateModified": "2026-09-15T17:09:00.886Z",
+      "customerId": "cust-08",
+      "billingEmail": "clara.barton@mercyhealth.org",
+      "billing": {
+        "firstName": "Clara",
+        "lastName": "Barton",
+        "city": "Washington",
+        "state": "DC"
+      },
+      "lineItems": [
+        {
+          "id": 11,
+          "name": "Everyday Shoulder Bag",
+          "quantity": 1,
+          "price": 120,
+          "total": 120
+        }
+      ],
+      "rawSyncedAt": "2026-10-14T17:09:00.886Z"
+    },
+    {
+      "id": "ord-1011",
+      "wooOrderId": 5011,
+      "number": "5011",
+      "status": "completed",
+      "currency": "USD",
+      "total": 780,
+      "dateCreated": "2026-10-07T17:09:00.886Z",
+      "dateModified": "2026-10-07T17:09:00.886Z",
+      "customerId": "cust-09",
+      "billingEmail": "alexander.wright@bespoketailor.co",
+      "billing": {
+        "firstName": "Alexander",
+        "lastName": "Wright",
+        "city": "New York",
+        "state": "NY"
+      },
+      "lineItems": [
+        {
+          "id": 12,
+          "name": "Bespoke Velvet Dinner Jacket",
+          "quantity": 1,
+          "price": 780,
+          "total": 780
+        }
+      ],
+      "rawSyncedAt": "2026-10-14T17:09:00.886Z"
+    },
+    {
+      "id": "ord-1012",
+      "wooOrderId": 5012,
+      "number": "5012",
+      "status": "completed",
+      "currency": "USD",
+      "total": 210,
+      "dateCreated": "2026-09-25T17:09:00.886Z",
+      "dateModified": "2026-09-25T17:09:00.886Z",
+      "customerId": "cust-10",
+      "billingEmail": "olivia.taylor@trendforecast.com",
+      "billing": {
+        "firstName": "Olivia",
+        "lastName": "Taylor",
+        "city": "Austin",
+        "state": "TX"
+      },
+      "lineItems": [
+        {
+          "id": 13,
+          "name": "Crepe Wide-Leg Trousers",
+          "quantity": 1,
+          "price": 210,
+          "total": 210
+        }
+      ],
+      "rawSyncedAt": "2026-10-14T17:09:00.886Z"
+    },
+    {
+      "id": "ord-1013",
+      "wooOrderId": 5013,
+      "number": "5013",
+      "status": "completed",
+      "currency": "USD",
+      "total": 440,
+      "dateCreated": "2026-09-17T17:09:00.886Z",
+      "dateModified": "2026-09-17T17:09:00.886Z",
+      "customerId": "cust-11",
+      "billingEmail": "maya.patel@horizonstudio.org",
+      "billing": {
+        "firstName": "Maya",
+        "lastName": "Patel",
+        "city": "Seattle",
+        "state": "WA"
+      },
+      "lineItems": [
+        {
+          "id": 14,
+          "name": "Cashmere Ribbed Cardigan",
+          "quantity": 1,
+          "price": 440,
+          "total": 440
+        }
+      ],
+      "rawSyncedAt": "2026-10-14T17:09:00.886Z"
+    },
+    {
+      "id": "ord-1014",
+      "wooOrderId": 5014,
+      "number": "5014",
+      "status": "completed",
+      "currency": "USD",
+      "total": 400,
+      "dateCreated": "2026-07-17T17:09:00.886Z",
+      "dateModified": "2026-07-17T17:09:00.886Z",
+      "customerId": "cust-11",
+      "billingEmail": "maya.patel@horizonstudio.org",
+      "billing": {
+        "firstName": "Maya",
+        "lastName": "Patel",
+        "city": "Seattle",
+        "state": "WA"
+      },
+      "lineItems": [
+        {
+          "id": 15,
+          "name": "Suede Ankle Boots",
+          "quantity": 1,
+          "price": 400,
+          "total": 400
+        }
+      ],
+      "rawSyncedAt": "2026-10-14T17:09:00.886Z"
+    },
+    {
+      "id": "ord-1015",
+      "wooOrderId": 5015,
+      "number": "5015",
+      "status": "refunded",
+      "currency": "USD",
+      "total": 135,
+      "dateCreated": "2026-08-26T17:09:00.886Z",
+      "dateModified": "2026-08-28T17:09:00.886Z",
+      "customerId": "cust-04",
+      "billingEmail": "marcus.vance@archstudio.net",
+      "billing": {
+        "firstName": "Marcus",
+        "lastName": "Vance",
+        "city": "Chicago",
+        "state": "IL"
+      },
+      "lineItems": [
+        {
+          "id": 16,
+          "name": "Silk Knit Tie",
+          "quantity": 1,
+          "price": 135,
+          "total": 135
+        }
+      ],
+      "rawSyncedAt": "2026-10-14T17:09:00.886Z"
+    }
+  ],
+  "notes": [
+    {
+      "id": "note-01",
+      "customerId": "cust-01",
+      "body": "Client prefers discreet packaging and direct courier delivery in the afternoon.",
+      "createdAt": "2026-09-20T17:09:00.886Z",
+      "updatedAt": "2026-09-20T17:09:00.886Z"
+    },
+    {
+      "id": "note-02",
+      "customerId": "cust-05",
+      "body": "Met at Autumn Trunk Show in Beverly Hills. Very keen on the upcoming winter velvet capsule.",
+      "createdAt": "2026-07-27T17:09:00.886Z",
+      "updatedAt": "2026-07-27T17:09:00.886Z"
+    },
+    {
+      "id": "note-03",
+      "customerId": "cust-09",
+      "body": "Custom measurements taken for velvet jacket sleeve adjustments.",
+      "createdAt": "2026-10-07T17:09:00.886Z",
+      "updatedAt": "2026-10-07T17:09:00.886Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-01",
+      "customerId": "cust-09",
+      "title": "Bespoke Fitting Follow-up",
+      "description": "Call Alexander regarding the final fit of the dinner jacket delivered last week.",
+      "dueDate": "2026-10-12T17:09:00.886Z",
+      "status": "PENDING",
+      "createdBy": "user",
+      "createdAt": "2026-10-08T17:09:00.886Z"
+    },
+    {
+      "id": "task-02",
+      "customerId": "cust-05",
+      "title": "Send Winter Capsule Lookbook",
+      "description": "Send private preview link of the new evening capsule before public launch.",
+      "dueDate": "2026-10-20T17:09:00.886Z",
+      "status": "PENDING",
+      "createdBy": "agent_approved",
+      "createdAt": "2026-10-13T17:09:00.886Z"
+    },
+    {
+      "id": "task-03",
+      "customerId": "cust-01",
+      "title": "Thank you note for anniversary order",
+      "description": "Sent handwritten concierge card with cashmere garment brush.",
+      "dueDate": "2026-09-05T17:09:00.886Z",
+      "status": "COMPLETED",
+      "createdBy": "user",
+      "createdAt": "2026-08-31T17:09:00.886Z"
+    }
+  ],
+  "communications": [
+    {
+      "id": "comm-01",
+      "customerId": "cust-01",
+      "type": "EMAIL",
+      "subject": "Your Personal Styling Invitation — Private Preview",
+      "body": "Hi Sarah, thank you for being one of our most valued patrons. We have reserved early access for you.",
+      "status": "DELIVERED",
+      "providerMessageId": "resend_msg_98234710",
+      "error": null,
+      "taskId": null,
+      "sentAt": "2026-10-01T17:09:00.886Z"
+    },
+    {
+      "id": "comm-02",
+      "customerId": "cust-03",
+      "type": "EMAIL",
+      "subject": "Welcome to the Atelier — Care Guide for your Merino Scarf",
+      "body": "Hi Elena, thank you for your order #5006. Here is our artisan care guide.",
+      "status": "DELIVERED",
+      "providerMessageId": "resend_msg_98234711",
+      "error": null,
+      "taskId": null,
+      "sentAt": "2026-10-11T17:09:00.886Z"
+    }
+  ],
+  "emailTemplates": [
+    {
+      "id": "tmpl-01",
+      "name": "VIP Private Preview Invitation",
+      "subject": "Exclusive Invitation: Private Winter Capsule Preview for {{firstName}}",
+      "body": "Dear {{firstName}},\n\nAs one of our most distinguished patrons (Lifetime Order Value: {{totalSpend}}), we are pleased to extend an exclusive private preview of our upcoming Winter Collection before the public launch.\n\nPlease enjoy complimentary express courier delivery on your selections with code VIPPREVIEW.\n\nWarmest regards,\nWooPulse CRM Atelier Concierge",
+      "allowedPlaceholders": [
+        "firstName",
+        "lastName",
+        "totalSpend",
+        "lastOrderDate"
+      ]
+    },
+    {
+      "id": "tmpl-02",
+      "name": "Win-Back Exclusive Privilege (15% Off)",
+      "subject": "We miss your eye for style, {{firstName}} — A special token for you",
+      "body": "Dear {{firstName}},\n\nIt has been over 90 days since your last order on {{lastOrderDate}}. We have just refreshed our curated arrivals and would love to welcome you back.\n\nEnjoy a private 15% courtesy savings on your next acquisition with the code ATELIER15.\n\nWith appreciation,\nThe Atelier Team",
+      "allowedPlaceholders": [
+        "firstName",
+        "lastOrderDate",
+        "storeName"
+      ]
+    },
+    {
+      "id": "tmpl-03",
+      "name": "First Purchase Onboarding & Garment Care",
+      "subject": "Welcome to our circle, {{firstName}} — Your Artisan Care Guide",
+      "body": "Dear {{firstName}},\n\nThank you for choosing our pieces for your recent purchase. Each creation is crafted with heritage materials intended to endure.\n\nWe have prepared a curated care guide to preserve the luster and longevity of your garments. Reach out to our concierge at any time should you need assistance.\n\nWarmly,\nThe Concierge Team",
+      "allowedPlaceholders": [
+        "firstName",
+        "orderNumber",
+        "orderDate"
+      ]
+    }
+  ],
+  "syncRuns": [
+    {
+      "id": "sync-01",
+      "type": "full",
+      "status": "SUCCESS",
+      "startedAt": "2026-10-14T17:09:00.886Z",
+      "finishedAt": "2026-10-14T17:09:00.886Z",
+      "counts": {
+        "customersSynced": 11,
+        "ordersSynced": 15,
+        "duplicatesDetected": 1
+      },
+      "error": null
+    }
+  ],
+  "webhookEvents": [
+    {
+      "id": "wh-01",
+      "deliveryId": "wh_del_982347891234",
+      "topic": "order.updated",
+      "resourceId": 5006,
+      "status": "PROCESSED",
+      "error": null,
+      "receivedAt": "2026-10-11T17:09:00.886Z"
+    },
+    {
+      "id": "wh-02",
+      "deliveryId": "wh_del_982347891235",
+      "topic": "customer.created",
+      "resourceId": 103,
+      "status": "PROCESSED",
+      "error": null,
+      "receivedAt": "2026-10-09T17:09:00.886Z"
+    }
+  ],
+  "duplicateCandidates": [
+    {
+      "id": "dup-01",
+      "customerAId": "cust-06",
+      "customerBId": "cust-07",
+      "reason": "Matching normalized email: james.wilson@gmail.com and identical phone number",
+      "status": "OPEN",
+      "createdAt": "2026-09-27T17:09:00.886Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "act-01",
+      "type": "SYNC",
+      "customerId": null,
+      "message": "Completed scheduled incremental sync with Demo Boutique (11 customers, 15 orders processed).",
+      "createdAt": "2026-10-14T17:09:00.886Z"
+    },
+    {
+      "id": "act-02",
+      "type": "WEBHOOK",
+      "customerId": "cust-03",
+      "message": "Received webhook: Order #5006 status transitioned to processing.",
+      "createdAt": "2026-10-11T17:09:00.886Z"
+    },
+    {
+      "id": "act-03",
+      "type": "COMMUNICATION",
+      "customerId": "cust-01",
+      "message": "Dispatched VIP Private Preview email to Sarah Jenkins.",
+      "createdAt": "2026-10-01T17:09:00.886Z"
+    },
+    {
+      "id": "act-04",
+      "type": "AGENT",
+      "customerId": "cust-05",
+      "message": "Agent created task: Send Winter Capsule Lookbook for Sophia Miller.",
+      "createdAt": "2026-10-13T17:09:00.886Z"
+    }
+  ]
+}

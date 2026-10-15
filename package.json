@@ -1,0 +1,29 @@
+{
+  "name": "woopulse-crm",
+  "version": "1.0.0",
+  "description": "WooPulse CRM — Intelligent WooCommerce Operations & Action Console",
+  "main": "server/src/index.js",
+  "scripts": {
+    "dev": "concurrently -k -p \"[{name}]\" -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "start": "npm run start --prefix server",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": [
+    "crm",
+    "woocommerce",
+    "ecommerce",
+    "react",
+    "vite",
+    "tailwind",
+    "action-console",
+    "woopulse"
+  ],
+  "author": "WooPulse CRM Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
